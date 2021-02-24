@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Custom linked CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Title Section -->
+
+  <section class="black-section" id="title">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-7 title-box">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Welcome !</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="login.html"><button class="btn btn-outline-light btn-md login-btn" type="button">Login</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="signup.html"><button class="btn btn-outline-light btn-md sign-up-btn" type="button">Sign up</button></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="1000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h1>Hungry?</h1>
+              </div>
+              <div class="carousel-item">
+                <h1>Unexpected guests?</h1>
+              </div>
+              <div class="carousel-item">
+                <h1>Cooking gone wrong?</h1>
+              </div>
+              <div class="carousel-item">
+                <h1>Movie marathon?</h1>
+              </div>
+              <div class="carousel-item">
+                <h1>Game night?</h1>
+              </div>
+              <div class="carousel-item">
+                <h1>Late night at office?</h1>
+              </div>
+            </div>
+          </div>
+          <h2>Order food from favourite restaurants near you.</h2>
+          <nav class="navbar navbar-dark ">
+            <div class="container-fluid">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Enter your delivery location" aria-label="Search">
+                <button class="btn btn-outline-light food-btn" type="submit">FIND FOOD</button>
+              </form>
+            </div>
+          </nav>
+          <div class="container fluid">
+            <h3>POPULAR CITIES IN INDIA</h3>
+            <a class="city ahmedabad-city" href="#">Ahmedabad</a>
+            <a class="city" href="#">Banglore</a>
+            <a class="city" href="#">Chennai</a>
+            <a class="city" href="#">Delhi</a>
+            <a class="city" href="#">Gurgaon</a>
+            <a class="city" href="#">Hyderabad</a>
+            <a class="city" href="#">Kolkata</a>
+            <a class="city" href="#">Mumbai</a>
+            <a class="city pune-city" href="#">Pune</a>
+            <span>&</span>
+            <a class="city" href="#">more</a>
+          </div> 
+        </div>
+        <div class="col-lg-5 title-img">
+            <img src="images/title-img.jpg" height="460px">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+
+  <section class="grey-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <img class="features-img" src="images/features-img1.png" width="30%">
+          <h3 class="feature-title">No Minimum Order</h3>
+          <p>Order in for yourself or for the group, with no restrictions on order value</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <img class="features-img" src="images/features-img2.png" width="30%">
+          <h3 class="feature-title">Live Order Tracking</h3>
+          <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+        </div>
+        <div class="feature-box col-lg-4 lightning-fast-delivery">
+          <img class="features-img" src="images/features-img3.png" width="30%">
+          <h3 class="feature-title">Lightning Fast Delivery</h3>
+          <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+
+  <section class="white-section" id="download">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 download-col-1">
+          <h1 class="download-title">Restaurants in your pocket</h1>
+          <p class="download-intro">Order from your favorite restaurants & track on the go, with the all-new Tasty app.</p>
+          <button type="button" class="btn btn-dark btn-lg download-apple-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-4 download-col-2">
+          <img class="download-img" src="images/download-img1.png">
+        </div>
+        <div class="col-lg-4 download-col-3">
+          <img class="download-img" src="images/download-img2.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About us Section -->
+
+  <section class="black-section" id="about-us">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <h6>COMPANY</h6>
+          <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Tasty Blog</a></li>
+          <li><a href="#">Bug Bounty</a></li>
+          <li><a href="#">Tasty Super</a></li>
+          <li><a href="#">Tasty Corporate</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h6>CONTACT</h6>
+          <ul>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">Ride with us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h6>LEGAL</h6>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Refund & Cancellation</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Offer Terms</a></li>
+            <li><a href="#">Phishing & Fraud</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <div ><button type="button" class="btn btn-dark btn-lg download-apple-button-1"><i class="fab fa-apple"></i> Download</button></div>
+          <div><button type="button" class="btn btn-dark btn-lg download-button-1"><i class="fab fa-google-play"></i> Download</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section-->
+  
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <a href="https://www.facebook.com/profile.php?id=100056985011215"><i class="social-icon fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/bkunsolved"><i class="social-icon fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/bkunsolved/"><i class="social-icon fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/bal-kishan-9b1a431b2/"><i class="social-icon fab fa-linkedin-in"></i></a>
+      <p>© Copyright 2021 Tasty</p>
+    </div>
+  </footer>
+  <script src="js/index.js" charset="utf-8"></script>
+</body>
+</html>
