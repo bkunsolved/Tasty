@@ -1,0 +1,166 @@
+
+body {
+    font-family: "Montserrat";
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+p {
+    color: #8f8f8f;
+}
+
+/* Title Section */
+
+.title-box {
+    background-color: black;
+    padding: 36px 0 60px 24px;
+}
+.title-img {
+    padding: 0;
+}
+.navbar {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 61%;
+}
+.login-btn {
+    margin-right: 10px;
+}
+.sign-up-btn {
+    margin-left: 10px;
+}
+.carousel-item {
+    color: white;
+}
+#title h1 {
+    color: white;
+    padding-left: 24px;
+}
+#title h2 {
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 24px;
+}
+#title h3 {
+    color: white;
+    font-size: 0.9rem;
+}
+.d-flex {
+    width: 97%;
+}
+.food-btn {
+    width: 30%;
+}
+.city { 
+    color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: none;
+}
+.city:hover {
+    color:white;
+}
+.city:visited {
+    color: white;
+}
+span {
+    color: white;
+}
+
+/* Features Section */
+
+#features {
+    background-color: #343A40;
+    text-align: center;
+}
+.feature-title {
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 30px;
+}
+.feature-box {
+    padding: 4.5%;
+}
+.lightning-fast-delivery {
+    padding-top: 86.8281px;
+}
+
+/* Download Section */
+
+#download {
+    background-color: white;
+}
+.download-title {
+    color: #343A40;
+    padding-left: 24px;
+} 
+.download-intro {
+   padding-left: 24px; 
+}
+.download-apple-button {
+   margin-left: 24px;
+   margin-right: 5px;
+}
+.download-col-1 {
+    padding: 36px 0 60px 24px;
+}
+.download-img {
+    width: 384px;
+    height: 489px;
+}
+
+/* About us Section */
+
+#about-us {
+    background-color: black;
+}
+#about-us h6 {
+    color: #8f8f8f;
+    padding-left: 24px;
+    padding-bottom: 30px;
+   padding-top: 60px;
+}
+#about-us a {
+    color: white;
+    text-decoration: none;
+}
+#about-us a:hover {
+    color: white;
+}
+#about-us a:visited {
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding-left: 24px;
+    padding-bottom: 15px;
+}
+.download-apple-button-1 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: white;
+    text-align: center;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+#footer a {
+    color: #343A40;
+}
+#footer a:hover {
+    color: black;
+}
