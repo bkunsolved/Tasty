@@ -119,6 +119,10 @@ span {
 #about-us {
     background-color: black;
 }
+.about-us-col-1 {
+    padding-left: 24px;
+    padding-bottom: 45px;
+}
 #about-us h6 {
     color: #8f8f8f;
     padding-left: 24px;
